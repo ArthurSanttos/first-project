@@ -118,17 +118,44 @@
       width: 50%;
     }
     #form {
-      width: 270px;
+      width: 300px;
     }
-    
+    #form input,
+    #form button{
+      padding: 12px;
+    }   
   }
-  @media (max-width: 530px){
+  @media (max-width: 415px){
     .container{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 45%;
+      width: 55%;
+    }
+    #form {
+      width: 200px;
+    }
+    .form-control{
+      padding: 0 0 1px;
+    }
+    #form input,
+    #form button{
+      padding: 5px;
+      font-size: 10px;
+    }
+    #form label{
+      font-size: 12px;
+    }    
+    
+  }
+  @media (max-width: 320px){
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 85%;
     }
     #form {
       width: 220px;
