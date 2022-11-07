@@ -148,12 +148,12 @@
     .container{
       width: 90%;
     }
-    .header h2{
-      font-size: 14px;
-    }
     #form input,
     #form button {
       padding: 4px;
+    }
+    .form button{
+      margin-top: 35px;
     }
     
     #form label{
