@@ -152,12 +152,10 @@
       font-size: 14px;
     }
     #form input,
-    #form button{
-      padding: 2px;
+    #form button {
+      padding: 4px;
     }
-    #form input{
-      padding: 0 0 0 5px;
-    }
+    
     #form label{
       font-size: 10px;
     } 
@@ -167,7 +165,7 @@
     }  
     .form-control i {
       position: absolute;
-      top: 32px;
+      top: 35px;
       right: 10px;
       visibility: hidden;
     }
