@@ -109,32 +109,24 @@
     color: #e74c3c;
   }
 
-  @media (max-width: 700px){
+  @media (min-width: 769px) and (max-width: 1024px){
     .container{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       width: 50%;
     }
-    #form {
-      width: 300px;
+    .header h2{
+      font-size: 25px;
     }
     #form input,
     #form button{
       padding: 12px;
     }   
   }
-  @media (max-width: 415px){
+  @media (min-width: 481px) and (max-width: 768px){
     .container{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       width: 55%;
     }
-    #form {
-      width: 200px;
+    .header h2{
+      font-size: 17px;
     }
     .form-control{
       padding: 0 0 1px;
@@ -149,26 +141,23 @@
     }    
     
   }
-  @media (max-width: 320px){
+  @media (min-width: 150px) and (max-width: 480px){
     .container{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 85%;
+      width: 90%;
     }
-    #form {
-      width: 220px;
-    }
-    .form-control{
-      padding: 0 0 5px;
+    .header h2{
+      font-size: 14px;
     }
     #form input,
     #form button{
-      padding: 4px;
+      padding: 2px;
     }
     #form label{
-      font-size: 12px;
-    }    
+      font-size: 10px;
+    } 
+    .form-control{
+      padding: 0 0 2px;
+      margin: 0 0 5px;
+    }   
     
   }
