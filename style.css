@@ -121,6 +121,9 @@
       padding: 12px;
     }   
   }
+
+  /* media query */
+
   @media (min-width: 481px) and (max-width: 768px){
     .container{
       width: 55%;
@@ -152,12 +155,26 @@
     #form button{
       padding: 2px;
     }
+    #form input{
+      padding: 0 0 0 5px;
+    }
     #form label{
       font-size: 10px;
     } 
     .form-control{
       padding: 0 0 2px;
       margin: 0 0 5px;
-    }   
+    }  
+    .form-control i {
+      position: absolute;
+      top: 32px;
+      right: 10px;
+      visibility: hidden;
+    }
+    .form-control.error small {
+      font-size: 12px;
+      text-align: center;
+      padding: 0 0 5px 20px;
+    }
     
   }
