@@ -108,3 +108,40 @@
     visibility: visible;
     color: #e74c3c;
   }
+
+  @media (max-width: 700px){
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+    }
+    #form {
+      width: 270px;
+    }
+    
+  }
+  @media (max-width: 530px){
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 45%;
+    }
+    #form {
+      width: 220px;
+    }
+    .form-control{
+      padding: 0 0 5px;
+    }
+    #form input,
+    #form button{
+      padding: 4px;
+    }
+    #form label{
+      font-size: 12px;
+    }    
+    
+  }
