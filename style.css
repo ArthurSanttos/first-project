@@ -170,9 +170,12 @@
       visibility: hidden;
     }
     .form-control.error small {
+      position: initial;
+      top: 35px;
+      right: 10px;
       font-size: 12px;
       text-align: center;
-      padding: 0 0 5px 20px;
+      padding: 0 0  20px;
     }
     
   }
